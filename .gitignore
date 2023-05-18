@@ -1,0 +1,5 @@
+.vs/
+**/obj/
+**/bin/
+SignalR.Web/
+SignalR.sln
