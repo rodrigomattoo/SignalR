@@ -23,7 +23,7 @@ imagenes.splice(index, 1);
 
 for (let i = 0; i < terminado; i++) {
 const div = document.createElement('div');
-div.className = 'placeholder';
+div.className = 'placeholder-puzzle';
 div.dataset.id = i;
 puzzle.appendChild(div);
 }

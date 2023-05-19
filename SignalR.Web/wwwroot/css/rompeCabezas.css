@@ -16,6 +16,7 @@
     height: 495px;
     display: flex;
     flex-wrap: wrap;
+    box-sizing:content-box;
     margin: auto;
 }
 
@@ -26,7 +27,7 @@
     margin: 10px;
 }
 
-.placeholder {
+.placeholder-puzzle {
     background-color: #F2F2F2;
     outline: 1px solid #333;
     width: 106px;
@@ -34,11 +35,11 @@
     transition: 1s;
 }
 
-    .placeholder.hover {
+    .placeholder-puzzle.hover {
         background-color: orange;
     }
 
-    .placeholder .pieza {
+    .placeholder-puzzle .pieza {
         margin: 0;
     }
 
@@ -56,7 +57,7 @@
         display: block;
     }
 
-    .ganaste .placeholder {
+    .ganaste .placeholder-puzzle {
         outline: none;
     }
 
@@ -64,7 +65,7 @@
         display: none;
     }
 
-.container {
+.container-puzzle {
     display: flex;
     flex-wrap: wrap;
 }
